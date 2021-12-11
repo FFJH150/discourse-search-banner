@@ -27,6 +27,7 @@ $max-width: 600px;
   position: relative;
   padding: 2.5em 0 3em;
   margin: 1em auto;
+  border: none;
   @include breakpoint(tablet) {
     padding: 1em 8px 2em;
     margin-top: 0.5em;
@@ -43,7 +44,6 @@ $max-width: 600px;
     input[type="text"] {
       margin: 0;
       width: 100%;
-border: none;
       padding-right: 4em;
     }
   }
