@@ -24,7 +24,6 @@ $max-width: 600px;
 
 .custom-search-banner-wrap {
   box-sizing: border-box;
-  border-color: transparent;
   position: relative;
   padding: 2.5em 0 3em;
   margin: 1em auto;
@@ -41,6 +40,7 @@ $max-width: 600px;
   .search-menu {
     position: relative;
     display: flex;
+    border-color: transparent;
     input[type="text"] {
       margin: 0;
       width: 100%;
